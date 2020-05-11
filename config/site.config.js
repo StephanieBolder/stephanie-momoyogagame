@@ -9,10 +9,10 @@ if (!ROOT) {
 
 const config = {
   // Your website's name, used for favicon meta tags
-  site_name: 'stephanie-portfolio',
+  site_name: 'Momoyoga | Stephanie Bolder',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'Een portfolio voor development',
+  site_description: 'A modern boilerplate for static website development',
 
   // Your website's URL, used for sitemap
   site_url: '',
