@@ -6,6 +6,9 @@ module.exports = {
         grijs: '#F7F5F4' ,
         bookedgroen: '#8ED650' ,
         waitingoranje: '#F6A62B' ,
+        lichtroze: '#F9C9CB' ,
+        groen: '#8ED650' ,
+        oranje: '#FE9923' ,
       }
     },
   },
