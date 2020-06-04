@@ -9,6 +9,8 @@ module.exports = {
         lichtroze: '#F9C9CB' ,
         groen: '#8ED650' ,
         oranje: '#FE9923' ,
+        blauw: '#3DC5FC' ,
+        oranje2: '#FFBD57' , 
       }
     },
   },
