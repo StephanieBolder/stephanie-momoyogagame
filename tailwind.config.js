@@ -11,6 +11,7 @@ module.exports = {
         oranje: '#FE9923' ,
         blauw: '#3DC5FC' ,
         oranje2: '#FFBD57' , 
+        donkergrijs: '#8D8D8D' ,
       }
     },
   },
