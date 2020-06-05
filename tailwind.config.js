@@ -1,6 +1,11 @@
 module.exports = {
   theme: {
     extend: {
+      fontFamily: {
+        display: ['Arial', 'sans-serif'],
+        body: ['Graphik', 'sans-serif'],
+        titel: ['Dancing Script', 'serif'],
+      } ,
       colors: {
         roze: '#FF5B5E' ,
         grijs: '#F7F5F4' ,
@@ -12,6 +17,7 @@ module.exports = {
         blauw: '#3DC5FC' ,
         oranje2: '#FFBD57' , 
         donkergrijs: '#8D8D8D' ,
+        rood: '#FF0005' ,
       }
     },
   },
