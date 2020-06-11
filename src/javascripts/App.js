@@ -35,7 +35,7 @@ const App = () => {
 
 const YogaPose = ({pose, onCompleted, completed, score, imageUrl}) => {
     return (
-    <div class="shadow-xl px-2 mx-6 mt-2 py-2 bg-white flex justify-between items-center">
+        <div class="shadow-xl px-2 mx-6 mt-2 py-2 bg-white flex justify-between items-center">
     <div>
       <img class="items-center pl-2 h-12 w-14" src={imageUrl}/>
     </div>
@@ -47,9 +47,12 @@ const YogaPose = ({pose, onCompleted, completed, score, imageUrl}) => {
 <button onClick={() => onCompleted()}class="bg-bookedgroen rounded text-lg text-center text-white py-1 px-2">{completed ? "completed" : `+${score}`}</button>
         </div>
       </div>
-    
     </div>
-    )
-}
+    );
+};
+
+
+
+
 
 export default App;

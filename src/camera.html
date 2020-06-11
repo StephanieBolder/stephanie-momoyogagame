@@ -15,8 +15,34 @@
   </head>
   <body class='bg-grijs'>
 
-    <div class="w-24 h-24"><video id="player" controls autoplay></video>    <div id='foto'></div></div>
-    <button id="capture">Capture</button>
+    <div class='flex flex-col bg-fixed z-10 py-8 bg-roze bg-cover'>
+      <a href="edit.html"><img class="-mt-4 ml-4 w-8 h-6" src="images/ArrowLeftWhite.png"></a>
+    <h1 class='flex justify-center font-display font-bold text-2xl text-white'>Edit profile</h1>
+</div>
+</div>
+</div>
+
+
+  <div class="mt-4 max-w-lg mx-6 bg-white rounded-lg shadow-lg flex flex-col justify-center">
+    <div class="flex justify-center items-center text-roze">
+      Take new profile picture
+    </div>
+    <div class="flex justify-center w-64 h-64"><video id="player" controls autoplay></video>    <div id='foto'></div></div>
+    <div class="flex justify-center">
+      <button class="bg-roze rounded-lg shadow-lg text-white p-4 items-center mb-4 " id="capture">Capture</button>
+    </div>
+  </div>
+
+  <div class="mt-4 max-w-lg mx-6 bg-white rounded-lg shadow-lg flex flex-col justify-center">
+    <div class="flex justify-center items-center text-roze">
+      Select new profile picture
+    </div>
+    <div class="flex justify-center">
+    </div>
+  </div>
+
+
+
    
     <canvas id="canvas" width=320 height=240></canvas>
     <script>

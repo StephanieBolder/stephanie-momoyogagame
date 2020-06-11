@@ -10,10 +10,28 @@
             "imageUrl":"images/Downward.png"
         },
         {
-            "pose":"Bridge",
+            "pose":"Bridge pose",
             "completed": false,
             "score": 1,
             "imageUrl":"images/Bridge.png"
+        },
+        {
+            "pose":"Chair Pose",
+            "completed": false,
+            "score": 1,
+            "imageUrl":"images/Chair.png"
+        },
+        {
+            "pose":"Bound Ankle",
+            "completed": false,
+            "score": 1,
+            "imageUrl":"images/Bound.png"
+        },
+        {
+            "pose":"Seal pose",
+            "completed": false,
+            "score": 1,
+            "imageUrl":"images/Seal.png"
         }
     ]
 }
