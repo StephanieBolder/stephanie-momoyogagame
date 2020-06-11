@@ -1,0 +1,19 @@
+
+
+
+{
+    "data": [
+        {
+            "pose":"Downward dog",
+            "completed": false,
+            "score": 1,
+            "imageUrl":"images/Downward.png"
+        },
+        {
+            "pose":"Bridge",
+            "completed": false,
+            "score": 1,
+            "imageUrl":"images/Bridge.png"
+        }
+    ]
+}
