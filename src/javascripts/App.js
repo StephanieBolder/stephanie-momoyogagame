@@ -44,7 +44,7 @@ const YogaPose = ({pose, onCompleted, completed, score, imageUrl}) => {
       </div>
       <div class='flex items-center text-right'>
         <div class=''>
-<button onClick={() => onCompleted()}class="bg-bookedgroen rounded text-lg text-center text-white py-1 px-2">{completed ? "completed" : `+${score}`}</button>
+<button onClick={() => onCompleted()}class="bg-bookedgroen rounded text-lg text-center text-white py-1 px-2">{completed ? <img className="w-6 h-8" src="images/tick.png"/> : `+${score}`}</button>
         </div>
       </div>
     </div>
