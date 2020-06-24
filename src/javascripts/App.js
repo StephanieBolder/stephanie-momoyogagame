@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Fragment} from 'react';
 import yogaJson from './yoga.json';
 const App = () => {
     const [poses, setPoses] = useState([]);
@@ -20,14 +20,22 @@ const App = () => {
     },[])
 
     return (
-        <div>
+        <Fragment><div class='flex bg-fixed z-10 py-8 bg-roze bg-cover'>
+        <h1 class='pl-12 font-display font-bold text-2xl text-white'>Momoyoga Game</h1>
+            </div>
+        <div className="flex justify-center flex-col">
+        <div className="">
             {
                 poses.map(({pose, completed, score, imageUrl},index) => {
                     return <YogaPose onCompleted={() => onCompleted(index)} pose={pose} completed={completed} score={score} imageUrl={imageUrl}/>
                 })
             }
-            <p>{score}</p>
+
         </div>
+         <p className="py-4 text-center font-bold">Your score:{score}</p>
+         <button className="w-4/12 mx-auto py-4 px-2 text-white font-bold bg-oranje rounded-lg shadow-lg"onClick={() => window.location.href = "/coincenter.html"}>End session</button>
+   </div>
+   </Fragment>
     )
 }
 
