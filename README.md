@@ -1,14 +1,32 @@
 # Stephanie Bolder - Momoyoga Game
-Dit project omvat alle gemaakte codes gemaakt voor het Momoyoga spel. Deze code is geschreven om een duidelijker beeld te geven aan de opdrachtgever, naast de gemaakte Adobe XD designs. 
+This project is made for the company Momoyoga. Momoyoga offers software for yoga teachers, to make payments, appointments, etc. much easier for them.
+The codes that I have written shows a solution to the problem they currently have: They currently only offer a service to yoga teachers, not yogi's.
 
-## Installeren
-Clone je eigen repository, gebruik vervolgens ```npm install``` en daarna ```npm start``` voor je development server. Eventueel kun je NPM ```run stetup``` gebruiken voor nog mogelijke opties, en om je website te hernoemen.
+## Status
+`working on the finishing touches`
 
-## Gebouwd met:
--	HTML
--	CSS
--	Javascript
--	Tailwind CSS
+## Authors
+* Stephanie Bolder
+Fontys FHICT student
 
-## Opzet gedaan met:
-* [Static Site Boilerplate](https://github.com/aadvdh/static-site-boilerplate-tailwindcss)
+## Build with:
+- HTML
+- CSS
+- Tailwind CSS
+- Javascript (& React)
+
+## Template used:
+- [Static Site Boilerplate](https://github.com/aadvdh/static-site-boilerplate-tailwindcss)
+
+## Clone this repo to your local machine by using:
+https://github.com/StephanieBolder/stephanie-momoyogagame
+
+## Used programs
+- Visual Studio Code
+- Git CMD
+- Github
+- Google Chrome
+
+## Install
+Clone your own repository, then use `npm install`, and after that `npm start` for your development server.
+Optional: You can use `npm run setup` for extra options, and to rename your site.
